@@ -1,0 +1,33 @@
+.circular--portrait {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+.circular--portrait img {
+    width: 100%;
+}
+.card-body {
+    text-align: center;
+}
+.incumbent, .democratic.incumbent, .republican.incumbent {
+    background-color: #F9B21A !important;
+    border-color: #F9B21A !important;
+}
+.republican {
+    border-color: #e50c0c;
+    background-color: #e50c0c;
+    color:#fff;
+}
+.democratic {
+    border-color: #003388;
+    background-color: #003388;
+    color:#fff;
+}
+.libertarian {
+    border-color: #8c8b89;
+    background-color: #8c8b89;
+    color:#fff;
+}
